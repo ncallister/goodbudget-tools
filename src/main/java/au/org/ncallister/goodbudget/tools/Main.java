@@ -21,4 +21,6 @@ public class Main
     
     System.out.println(session.get("/api/transactions", new ArrayList<>()));
   }
+  
+  // TODO: Local H2 Database - http://www.h2database.com/html/quickstart.html
 }
